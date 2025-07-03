@@ -1,6 +1,6 @@
 # Define Gmail credentials
 $gmailUser = "yabeshjasper17@gmail.com"
-$gmailPassword = "qikc lvmy kpgh hpas"  # Use App Password, not your normal Gmail password
+$gmailPassword = "qikc lvmy kpgh hpas"  # Use App Password(https://myaccount.google.com/apppasswords), not your normal Gmail password
 
 # Load CSV
 $recipients = Import-Csv -Path "/Users/YabeshJasper/Powershell/AutomateEmail/email_list.csv"
